@@ -4,7 +4,7 @@ public class User_Comics {
     private int ID_USER_COMICS;
     private String USER_NAME;
     private String PASSWORD_USER;
-    private String User;
+    
 
     public User_Comics(int ID_USER_COMICS,
             String USER_NAME, String PASSWORD_USER) {
