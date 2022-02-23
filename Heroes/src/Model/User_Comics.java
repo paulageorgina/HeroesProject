@@ -1,4 +1,4 @@
-package Config;
+package Model;
 
 public class User_Comics {
     private int ID_USER_COMICS;

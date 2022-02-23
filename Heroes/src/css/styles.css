@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#BtnLogin {
+  cursor: pointer;
+}
+#BtnCerrarA:hover {
+  -fx-text-fill: #e6e3ff; 
+  opacity: 50%;
+}
+#BtnLogin:hover {
+  opacity: 80%;
+
+  -fx-font-size: 20px;
+}
+#Btnclosewindowsnow:hover {
+  -fx-text-fill: #f7f7f7;
+  -fx-background-color: #ff27f0;
+}
+#BtnUsuario:hover {
+  -fx-text-fill: #f7f7f7;
+}
+#BtnMiniwindowsnow:hover{
+    -fx-text-fill: #f7f7f7;
+}
+#txtPasswordd {
+  -fx-text-fill: #ff27f0;
+}
+
+#txtUserName {
+  -fx-text-fill: #ff27f0;
+}
+
+#fondotab {
+  -fx-background-color: #000;
+}
+#BtnCerrarBatman:hover {
+  -fx-text-fill: #f7f7f7; 
+}
+
+
+#BtnFlash:hover {
+  -fx-text-fill: #ffffff; 
+}
+#color-style:hover {
+  -fx-text-fill: #ffffff; 
+}

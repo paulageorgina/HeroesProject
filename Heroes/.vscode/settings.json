@@ -2,6 +2,15 @@
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
-        "lib/**/*.jar"
+        "lib/**/*.jar",
+        "c:\\Users\\carde\\OneDrive\\Documentos\\Programacion\\javafx-sdk-11.0.2\\lib\\javafx.base.jar",
+        "c:\\Users\\carde\\OneDrive\\Documentos\\Programacion\\javafx-sdk-11.0.2\\lib\\javafx.controls.jar",
+        "c:\\Users\\carde\\OneDrive\\Documentos\\Programacion\\javafx-sdk-11.0.2\\lib\\javafx.fxml.jar",
+        "c:\\Users\\carde\\OneDrive\\Documentos\\Programacion\\javafx-sdk-11.0.2\\lib\\javafx.graphics.jar",
+        "c:\\Users\\carde\\OneDrive\\Documentos\\Programacion\\javafx-sdk-11.0.2\\lib\\javafx.media.jar",
+        "c:\\Users\\carde\\OneDrive\\Documentos\\Programacion\\javafx-sdk-11.0.2\\lib\\javafx.swing.jar",
+        "c:\\Users\\carde\\OneDrive\\Documentos\\Programacion\\javafx-sdk-11.0.2\\lib\\javafx.web.jar",
+        "c:\\Users\\carde\\OneDrive\\Documentos\\Programacion\\javafx-sdk-11.0.2\\lib\\javafx-swt.jar",
+        "c:\\Users\\carde\\OneDrive\\Documentos\\Programacion\\javafx-sdk-11.0.2\\lib\\postgresql-42.2.23.jar",
     ]
 }

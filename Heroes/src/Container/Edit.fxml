@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="368.0" prefWidth="651.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+      <HBox alignment="CENTER" prefHeight="42.0" prefWidth="651.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="Agregar Super Heroes" textFill="#ff27f0">
+               <font>
+                  <Font name="Consolas Bold Italic" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" layoutY="45.0" prefHeight="274.0" prefWidth="651.0" AnchorPane.bottomAnchor="49.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="45.0">
+         <children>
+            <GridPane alignment="CENTER" prefHeight="262.0" prefWidth="584.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="320.0" minWidth="10.0" prefWidth="195.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="521.0" minWidth="10.0" prefWidth="430.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="126.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="227.0" minHeight="10.0" prefHeight="227.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <HBox id="txtPasswordd" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" stylesheets="@../../../../../Hers/Hers/src/controller/css/styles.css" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fitHeight="189.0" fitWidth="223.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../../Hers/Hers/src/controller/Container/img/Log.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <opaqueInsets>
+                        <Insets right="10.0" />
+                     </opaqueInsets>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="320.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="320.0" text="Imagen " textFill="#ff27f0">
+                           <font>
+                              <Font name="Consolas Italic" size="26.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="320.0" text="Descripción " textFill="#ff27f0">
+                           <font>
+                              <Font name="Consolas Italic" size="26.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <TextArea id="txtPasswordd" prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #ff27f0; -fx-border-image-width: 2px; -fx-border-radius: 2px; -fx-opacity: 50;" stylesheets="@../../../../../Hers/Hers/src/controller/css/styles.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Consolas Italic" size="20.0" />
+                     </font>
+                  </TextArea>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="2.0" left="2.0" right="20.0" top="2.0" />
+               </VBox.margin>
+            </GridPane>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" layoutY="319.0" prefHeight="49.0" prefWidth="651.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="319.0">
+         <children>
+             <Button fx:id="BtnCargarImage" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="42.0" prefWidth="166.0" style="-fx-cursor: pointer; -fx-background-color: transparent; -fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px;" text="Cargar imagen" textAlignment="CENTER" textFill="#ff27f0">
+                <font>
+                   <Font name="Consolas Bold Italic" size="19.0" />
+                </font>
+             </Button>
+         </children>
+      </HBox>
+    </children>
+ </AnchorPane>
