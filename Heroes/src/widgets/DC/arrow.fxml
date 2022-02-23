@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="497.0" prefWidth="651.0" style="-fx-background-color: #000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="widgets.controller.InsertarServicioController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="493.0" prefWidth="651.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="651.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="251.0" text="Green Arrow" textAlignment="CENTER" textFill="#2cff29">
+                     <font>
+                        <Font name="Consolas Italic" size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="357.0" prefWidth="647.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="291.0" prefWidth="188.0">
+                     <children>
+                        <ImageView fitHeight="395.0" fitWidth="229.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../heroes/dc-arrow.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="367.0" prefWidth="425.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="60.0" prefWidth="394.0">
+                           <children>
+                              <Text fill="#2cff29" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Oliver Queen " textAlignment="CENTER" wrappingWidth="247.13671875">
+                                 <font>
+                                    <Font name="Consolas Italic" size="25.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </HBox>
+                        <VBox prefHeight="323.0" prefWidth="394.0">
+                           <children>
+                              <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Green Arrow es un superhéroe que aparece en los cómics publicados por DC Comics. Creado por Mort Weisinger y diseñado por George Papp, apareció por primera vez en More Fun Comics #73 en noviembre de 1941. Su nombre real es Oliver Jonas Queen, un empresario adinerado y propietario de Industrias Queen que también es una celebridad muy conocida en Star City. A veces se muestra vestido como el personaje de Robin Hood, Green Arrow es un arquero que usa sus habilidades para combatir el crimen en sus ciudades natales de Star City y Seattle, así como junto a sus compañeros superhéroes como miembro de la Liga de la Justicia." textAlignment="CENTER" wrappingWidth="382.13671875">
+                                 <font>
+                                    <Font name="Consolas Bold Italic" size="17.0" />
+                                 </font>
+                                 <fill>
+                                    <LinearGradient endX="1.0" endY="1.0">
+                                       <stops>
+                                          <Stop>
+                                             <color>
+                                                <Color red="0.3471003770828247" green="0.9736841917037964" blue="0.6603922843933105" />
+                                             </color>
+                                          </Stop>
+                                          <Stop offset="0.007662835249042145">
+                                             <color>
+                                                <Color red="0.3471003770828247" green="0.9736841917037964" blue="0.6603922843933105" />
+                                             </color>
+                                          </Stop>
+                                          <Stop offset="1.0">
+                                             <color>
+                                                <Color red="0.2638888955116272" green="1.0" blue="0.8650463223457336" />
+                                             </color>
+                                          </Stop>
+                                       </stops>
+                                    </LinearGradient>
+                                 </fill>
+                              </Text>
+                           </children></VBox>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets left="2.0" right="2.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="69.0" prefWidth="651.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="38.0" prefWidth="188.0">
+                     <children>
+                        <Button fx:id="BtnCerrarA" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#closeWindowsArrow" prefHeight="42.0" prefWidth="183.0" style="-fx-cursor: HAND; -fx-background-color: transparent; -fx-border-color: #2cff29; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../../css/styles.css" text="Regresar a DC" textFill="#2cff29">
+                           <font>
+                              <Font name="Consolas Bold" size="19.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

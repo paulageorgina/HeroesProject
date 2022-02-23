@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="651.0" style="-fx-background-color: #000; -fx-border-color: #bc67e1;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="widgets.controller.InsertarServicioController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="479.0" prefWidth="651.0" style="-fx-border-radius: 20px; -fx-background-color: transparent;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="95.0" prefWidth="629.0" style="-fx-border-radius: 20px; -fx-background-color: transparent;">
+               <children>
+                  <Label id="BtnCerrarA" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="251.0" stylesheets="@../../css/styles.css" text="Black Canary" textAlignment="CENTER" textFill="#bc67e1">
+                     <font>
+                        <Font name="Consolas Italic" size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="408.0" prefWidth="651.0">
+               <children>
+                  <VBox prefHeight="291.0" prefWidth="188.0">
+                     <children>
+                        <ImageView fitHeight="395.0" fitWidth="229.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../heroes/dc-black.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="367.0" prefWidth="425.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="60.0" prefWidth="394.0">
+                           <children>
+                              <Label id="BtnCerrarA" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="394.0" stylesheets="@../../css/styles.css" text="Dinah Drake" textAlignment="CENTER" textFill="#bc67e1">
+                                 <font>
+                                    <Font name="Consolas Italic" size="27.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <VBox prefHeight="330.0" prefWidth="392.0">
+                           <children>
+                              <Text fill="#c97febb0" strokeType="OUTSIDE" strokeWidth="0.0" text="Canario Negro (en inglés, Black Canary) es una superheroína ficticia que aparece en los cómics estadounidenses publicados por DC Comics. Creado por el equipo de escritores y artistas de Robert Kanigher y Carmine Infantino, el personaje debutó en Flash Comics # 86 (agosto de 1947). Una de los primeros super-heroínas de DC, Canario Negro ha aparecido en muchas de insignia de la compañía Team-Up títulos como Sociedad de la Justicia de América y la Liga de la Justicia de América. Desde finales de la década de 1960, el personaje ha sido emparejado con el superhéroe arquero Flecha Verde, profesional y románticamente." textAlignment="JUSTIFY" wrappingWidth="393.13671875">
+                                 <font>
+                                    <Font name="Consolas Bold Italic" size="17.0" />
+                                 </font>
+                              </Text>
+                           </children></VBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="107.0" prefWidth="651.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="53.0" prefWidth="196.0">
+                     <children>
+                        <Button id="BtnCerrarA" fx:id="BtnCerrarBlack" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#closeWindowsBlack" prefHeight="42.0" prefWidth="179.0" style="-fx-cursor: HAND; -fx-background-color: transparent; -fx-border-color: #bc67e1; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../../css/styles.css" text="Regresar a DC" textAlignment="CENTER" textFill="#bc67e1">
+                           <font>
+                              <Font name="Consolas Bold" size="19.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
