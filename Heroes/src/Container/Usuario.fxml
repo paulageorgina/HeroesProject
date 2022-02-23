@@ -14,7 +14,10 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<HBox alignment="CENTER" opacity="0.81" prefHeight="535.0" prefWidth="1078.0" style="-fx-background-color: #000;" stylesheets="@../../../../../Hers/Hers/src/controller/css/styles.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="widgets.HeroesJavaFx">
+<HBox alignment="CENTER" opacity="0.81" prefHeight="535.0" prefWidth="1078.0" 
+style="-fx-background-color: #000;" stylesheets="@../../../../../ProjectHeroes/Heroes/src/controller/css/styles.css" 
+xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" 
+fx:controller="widgets.HeroesJavaFx">
 
    <VBox prefHeight="200.0" prefWidth="100.0">
       <children>
@@ -36,7 +39,7 @@
                </HBox>
                <HBox alignment="CENTER_RIGHT" prefHeight="150.0" prefWidth="596.0">
                   <children>
-                     <Button id="color-style" fx:id="Btnclosewindowsnow" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#closewindowsnow" prefHeight="37.0" prefWidth="138.0" style="-fx-background-color: transparent;" stylesheets="@../../../../../Hers/Hers/src/controller/css/styles.css" text="Loguot" textAlignment="CENTER" textFill="#ff27f0">
+                     <Button id="color-style" fx:id="Btnclosewindowsnow" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#closewindowsnow" prefHeight="37.0" prefWidth="138.0" style="-fx-background-color: transparent;" stylesheets="@../../../../../ProjectHeroes/Heroes/src/controller/css/styles.css" text="Loguot" textAlignment="CENTER" textFill="#ff27f0">
                         <font>
                            <Font name="Consolas Bold" size="20.0" />
                         </font>
@@ -65,7 +68,7 @@
                               <children>
                                  <HBox alignment="CENTER" prefHeight="114.0" prefWidth="660.0">
                                     <children>
-                                       <Button id="color-style" fx:id="BtnUsuario" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="42.0" prefWidth="109.0" style="-fx-cursor: HAND; -fx-background-color: transparent; -fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../../../../../Hers/Hers/src/controller/css/styles.css" text="Search" textFill="#ff27f0">
+                                       <Button id="color-style" fx:id="BtnUsuario" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="42.0" prefWidth="109.0" style="-fx-cursor: HAND; -fx-background-color: transparent; -fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../../../../../ProjectHeroes/Heroes/src/controller/css/styles.css" text="Search" textFill="#ff27f0">
                                           <font>
                                              <Font name="Consolas Bold Italic" size="20.0" />
                                           </font>
@@ -92,7 +95,7 @@
                                           <children>
                                              <ImageView fitHeight="335.0" fitWidth="238.0" pickOnBounds="true" preserveRatio="true">
                                                 <image>
-                                                   <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/dc-arrow.jpg" />
+                                                   <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/dc-arrow.jpg" />
                                                 </image>
                                              </ImageView>
                                           </children>
@@ -101,7 +104,7 @@
                                           <children>
                                              <ImageView fitHeight="313.0" fitWidth="239.0" pickOnBounds="true" preserveRatio="true">
                                                 <image>
-                                                   <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/marvel-captain.jpg" />
+                                                   <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/marvel-captain.jpg" />
                                                 </image>
                                              </ImageView>
                                           </children>
@@ -131,7 +134,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: HAND;">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/dc-arrow.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/dc-arrow.jpg" />
                                                       </image>
                                                       <cursor>
                                                          <Cursor fx:constant="HAND" />
@@ -150,7 +153,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/dc-batman.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/dc-batman.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -166,7 +169,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/dc-black.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/dc-black.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -182,7 +185,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/dc-blue.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/dc-blue.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -198,7 +201,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/dc-flash.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/dc-flash.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -224,7 +227,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/dc-green.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/dc-green.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -240,7 +243,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/dc-martian.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/dc-martian.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -256,7 +259,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/dc-robin.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/dc-robin.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -272,7 +275,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/dc-superman.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/dc-superman.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -288,7 +291,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/dc-wonder.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/dc-wonder.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -329,7 +332,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/marvel-captain.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/marvel-captain.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -345,7 +348,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/marvel-cyclops.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/marvel-cyclops.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -361,7 +364,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/marvel-daredevil.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/marvel-daredevil.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -378,7 +381,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/marvel-hawkeye.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/marvel-hawkeye.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -394,7 +397,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/marvel-hulk.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/marvel-hulk.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -420,7 +423,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/marvel-iron.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/marvel-iron.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -436,7 +439,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/marvel-silver.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/marvel-silver.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -452,7 +455,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/marvel-spider.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/marvel-spider.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -468,7 +471,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/marvel-thor.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/marvel-thor.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
@@ -484,7 +487,7 @@
                                                 <graphic>
                                                    <ImageView fitHeight="337.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
                                                       <image>
-                                                         <Image url="@../../../../../Hers/Hers/src/controller/Container/heroes/marvel-wolverine.jpg" />
+                                                         <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/heroes/marvel-wolverine.jpg" />
                                                       </image>
                                                    </ImageView>
                                                 </graphic>
