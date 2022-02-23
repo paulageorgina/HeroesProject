@@ -1,4 +1,4 @@
-import Data.Conexion;
+//import Data.Conexion;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -11,7 +11,7 @@ public class Heroes extends Application {
     @Override
     public void start(Stage escenario) throws Exception {
         
-        Conexion.obtenerConexion();
+        //Conexion.obtenerConexion();
         Parent root  = FXMLLoader.load(getClass().getResource("./Container/Login.fxml"));
 
         Scene escena = new Scene(root);
