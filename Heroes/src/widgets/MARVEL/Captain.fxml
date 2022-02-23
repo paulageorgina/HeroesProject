@@ -14,7 +14,7 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
  prefHeight="488.0" prefWidth="651.0" style="-fx-background-color: #000; -fx-border-color: #5316fc;" 
  xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
-  fx:controller="widgets.controller.InsertarServicioController">
+  fx:controller="widgetsController.InsertarServicioController">
    <children>
       <VBox alignment="CENTER" prefHeight="479.0" prefWidth="651.0">
          <children>
