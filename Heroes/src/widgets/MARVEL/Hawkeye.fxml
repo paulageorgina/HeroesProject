@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="651.0" style="-fx-background-color: #000; -fx-border-color: #ff27f0;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="widgets.controller.InsertarServicioController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="479.0" prefWidth="651.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label id="color-style" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="251.0" stylesheets="@../../css/styles.css" text="Green Arrow" textAlignment="CENTER" textFill="#ff27f0">
+                     <font>
+                        <Font name="Consolas Italic" size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="408.0" prefWidth="651.0">
+               <children>
+                  <VBox prefHeight="291.0" prefWidth="188.0">
+                     <children>
+                        <ImageView fitHeight="395.0" fitWidth="229.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../heroes/marvel-hawkeye.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="367.0" prefWidth="425.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="60.0" prefWidth="394.0">
+                           <children>
+                              <Text fill="#ff27f0" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Clinton Francis «Clint» Barton" textAlignment="CENTER" wrappingWidth="364.13671875">
+                                 <font>
+                                    <Font name="Consolas Italic" size="22.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </HBox>
+                        <VBox prefHeight="323.0" prefWidth="394.0">
+                           <children>
+                              <Text fill="#ff29f198" strokeType="OUTSIDE" strokeWidth="0.0" text="Ojo de Halcón (Clinton Francis «Clint» Barton) (en inglés Hawkeye), es un superhéroe de ficción que aparece en los cómics estadounidenses publicados por Marvel Comics. Creado por el escritor Stan Lee y el artista Don Heck, el personaje apareció por primera vez como un villano en Tales of Suspense # 57 (septiembre de 1964) y más tarde se unió a los Vengadores en The Avengers # 16 (mayo de 1965). Él ha sido un miembro prominente del equipo desde entonces. También ocupó el puesto # 44 en la lista de los 100 mejores héroes de cómics de IGN.1" wrappingWidth="391.13671875">
+                                 <font>
+                                    <Font name="Consolas Bold Italic" size="18.0" />
+                                 </font>
+                              </Text>
+                           </children></VBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="107.0" prefWidth="651.0">
+               <children>
+                  <Button id="color-style" fx:id="BtnCerrarHawkeye" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#closeWindowsHawkeye" prefHeight="42.0" prefWidth="234.0" style="-fx-cursor: HAND; -fx-background-color: transparent; -fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../../css/styles.css" text="Regresar a Marvel" textFill="#ff27f0">
+                     <font>
+                        <Font name="Consolas Bold" size="19.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

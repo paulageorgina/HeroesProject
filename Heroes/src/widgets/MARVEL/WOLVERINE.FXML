@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="651.0" style="-fx-background-color: #000; -fx-border-color: #c9a800;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="widgets.controller.InsertarServicioController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="479.0" prefWidth="651.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="251.0" text="Wolverine" textAlignment="CENTER" textFill="#c9a800">
+                     <font>
+                        <Font name="Consolas Italic" size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="408.0" prefWidth="651.0">
+               <children>
+                  <VBox prefHeight="291.0" prefWidth="188.0">
+                     <children>
+                        <ImageView fitHeight="395.0" fitWidth="229.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../heroes/marvel-wolverine.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="367.0" prefWidth="425.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="60.0" prefWidth="394.0">
+                           <children>
+                              <Text fill="#c9a800" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Oliver Queen " textAlignment="CENTER" wrappingWidth="247.13671875">
+                                 <font>
+                                    <Font name="Consolas Italic" size="25.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </HBox>
+                        <VBox prefHeight="323.0" prefWidth="394.0">
+                           <children>
+                              <Text fill="#c3a004a6" strokeType="OUTSIDE" strokeWidth="0.0" text="Su primera aparición la realizó dentro de las páginas del número 180 del cómic The Incredible Hulk, en octubre de 1974, aunque su presentación formal fue en el número siguiente por descuido del guionista (número 181, noviembre de 1974). Además, hizo frecuentes apariciones como invitado en otros cómics de Marvel. Es un mutante que posee sentidos afinados a los animales, capacidades físicas mejoradas, poderosa capacidad de regeneración conocida como un factor de curación, y tres garras retráctiles en cada mano. Wolverine ha sido representado de diversas formas como miembro de los X-Men, Alpha Flight, Fuerza-X y Los Vengadores." textAlignment="JUSTIFY" wrappingWidth="391.13671875">
+                                 <font>
+                                    <Font name="Consolas Bold Italic" size="17.0" />
+                                 </font>
+                              </Text>
+                           </children></VBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="107.0" prefWidth="651.0">
+               <children>
+                  <Button id="color-style" fx:id="BtnCerrarWolverine" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#closeWindowsWolverine" prefHeight="42.0" prefWidth="214.0" style="-fx-cursor: HAND; -fx-background-color: transparent; -fx-border-color: #c9a800; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../../css/styles.css" text="Regresar a Marvel" textFill="#c9a800">
+                     <font>
+                        <Font name="Consolas Bold" size="19.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

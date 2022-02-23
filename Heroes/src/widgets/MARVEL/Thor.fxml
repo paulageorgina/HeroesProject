@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="488.0" prefWidth="651.0" style="-fx-background-color: #000; -fx-border-color: #c20000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="widgets.controller.InsertarServicioController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="479.0" prefWidth="651.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label id="color-style" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="251.0" stylesheets="@../../css/styles.css" text="Thor" textAlignment="CENTER" textFill="#8028e4">
+                     <font>
+                        <Font name="Consolas Italic" size="34.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="408.0" prefWidth="651.0">
+               <children>
+                  <VBox prefHeight="291.0" prefWidth="188.0">
+                     <children>
+                        <ImageView fitHeight="395.0" fitWidth="229.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../heroes/marvel-thor.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="367.0" prefWidth="425.0">
+                     <HBox.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="60.0" prefWidth="394.0">
+                           <children>
+                              <Text fill="#8028e4" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Thor Odinson" textAlignment="CENTER" wrappingWidth="247.13671875">
+                                 <font>
+                                    <Font name="Consolas Italic" size="25.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </HBox>
+                        <VBox prefHeight="323.0" prefWidth="394.0">
+                           <children>
+                              <Text fill="#c20000c9" strokeType="OUTSIDE" strokeWidth="0.0" text="El personaje fue retratado por primera vez en acción en vivo por Eric Allan Kramer en la película de televisión de 1988 The Incredible Hulk Returns. Chris Hemsworth interpreta a Thor Odinson en las películas de Marvel Cinematic Universe: Thor (2011), The Avengers (2012), Thor: The Dark World (2013), Avengers: Age of Ultron (2015), Doctor Strange (2016) en un cameo, Thor: Ragnarok (2017), Avengers: Infinity War (2018) y Avengers: Endgame (2019). Además, se utilizaron imágenes de archivo de Hemsworth como Thor en los episodios &quot;Pilot &quot; y &quot;The Well&quot; de Marvel's Agents of S.H.I.E.L.D." textAlignment="JUSTIFY" wrappingWidth="390.13671875">
+                                 <font>
+                                    <Font name="Consolas Bold Italic" size="17.0" />
+                                 </font>
+                              </Text>
+                           </children></VBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="107.0" prefWidth="651.0">
+               <children>
+                  <Button id="color-style" fx:id="BtnCerrarThor" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#closeWindowsThor" prefHeight="42.0" prefWidth="219.0" style="-fx-cursor: HAND; -fx-background-color: transparent; -fx-border-color: #8028e4; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../../css/styles.css" text="Regresar a Marvel" textFill="#8028e4">
+                     <font>
+                        <Font name="Consolas Bold" size="19.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
