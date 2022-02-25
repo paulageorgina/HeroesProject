@@ -17,7 +17,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="widgets.HeroesJavaFx">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="widgets.controller.InsertarServicioController">
 
    <children>
       <HBox alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="600.0" style="-fx-background-color: #000;">
@@ -39,7 +39,7 @@
                <children>
                   <VBox alignment="CENTER" prefHeight="28.0" prefWidth="54.0">
                      <children>
-                        <Button id="color-style" fx:id="BtnLogin" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="18.0" prefWidth="16.0" style="-fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../../../../../ProjectHeroes/Heroes/src/controller/css/styles.css" text="X" textFill="#ff27f0">
+                        <Button id="color-style" fx:id="BtnLogin" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="18.0" prefWidth="16.0" style="-fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" text="X" textFill="#ff27f0">
                            <font>
                               <Font name="Consolas Bold" size="19.0" />
                            </font>
@@ -92,12 +92,12 @@
                               <Font name="Consolas Bold Italic" size="20.0" />
                            </font>
                         </Label>
-                        <TextField id="txtUserName" fx:id="txtUserName" prefHeight="37.0" prefWidth="235.0" promptText="Ingrese su Usuario" style="-fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px; -fx-background-color: transparent;" stylesheets="@../../../../../ProjectHeroes/Heroes/src/controller/css/styles.css" GridPane.columnIndex="1">
+                        <TextField id="txtUserName" fx:id="txtUserName" prefHeight="37.0" prefWidth="235.0" promptText="Ingrese su Usuario" style="-fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px; -fx-background-color: transparent;" stylesheets="@../css/styles.css" GridPane.columnIndex="1">
                            <font>
                               <Font name="Consolas Bold" size="14.0" />
                            </font>
                         </TextField>
-                        <PasswordField id="txtPasswordd" fx:id="txtPasswordd" prefHeight="37.0" prefWidth="235.0" promptText="Ingrese su contraseña" style="-fx-border-color: #FF27F0; -fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../../../../../ProjectHeroes/Heroes/src/controller/css/styles.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                        <PasswordField id="txtPasswordd" fx:id="txtPasswordd" prefHeight="37.0" prefWidth="235.0" promptText="Ingrese su contraseña" style="-fx-border-color: #FF27F0; -fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
                            <font>
                               <Font name="Consolas Bold" size="14.0" />
                            </font>
@@ -110,7 +110,7 @@
                            <children>
                               <HBox alignment="CENTER" prefHeight="49.0" prefWidth="398.0">
                                  <children>
-                                    <Button id="color-style" fx:id="BtnSingUp" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#getData" prefHeight="32.0" prefWidth="120.0" style="-fx-background-color: transparent; -fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../../../../../ProjectHeroes/Heroes/src/controller/css/styles.css" text="Sing Up" textFill="#ff27f0">
+                                    <Button id="color-style" fx:id="BtnSingUp" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#getData" prefHeight="32.0" prefWidth="120.0" style="-fx-background-color: transparent; -fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" text="Sing Up" textFill="#ff27f0">
                                        <font>
                                           <Font name="Consolas Bold Italic" size="16.0" />
                                        </font>
@@ -135,7 +135,7 @@
                                           </HBox>
                                           <HBox alignment="CENTER_LEFT" prefHeight="43.0" prefWidth="141.0">
                                              <children>
-                                                <Button id="color-style" fx:id="BtnLogin" mnemonicParsing="false" onAction="#cargarSingUp" prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../../../../../ProjectHeroes/Heroes/src/controller/css/styles.css" text="Login" textFill="#ff0079">
+                                                <Button id="color-style" fx:id="BtnLogin" mnemonicParsing="false" onAction="#cargarSingUp" prefHeight="32.0" prefWidth="70.0" style="-fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" text="Login" textFill="#ff0079">
                                                    <font>
                                                       <Font name="Consolas Bold Italic" size="16.0" />
                                                    </font>
@@ -161,7 +161,7 @@
                <children>
                   <ImageView fitHeight="230.0" fitWidth="287.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/img/Log.png" />
+                        <Image url="@../../../../../Hers/Hers/src/controller/Container/img/Log.png" />
                      </image>
                   </ImageView>
                </children>

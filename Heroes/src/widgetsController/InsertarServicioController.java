@@ -679,7 +679,6 @@ public void closeWindowsWolverine() {
 
 @Override
 public void initialize(URL location, ResourceBundle resources) {
-    // TODO Auto-generated method stub
 
 }
 }

@@ -39,7 +39,7 @@
                <children>
                   <VBox alignment="CENTER" prefHeight="28.0" prefWidth="54.0">
                      <children>
-                        <Button id="color-style" fx:id="BtnLogin" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#closeWindows11" prefHeight="18.0" prefWidth="16.0" style="-fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../../../../../ProjectHeroes/Heroes/src/controller/css/styles.css" text="X" textFill="#ff27f0">
+                        <Button id="color-style" fx:id="BtnLogin" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#closeWindows11" prefHeight="18.0" prefWidth="16.0" style="-fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" text="X" textFill="#ff27f0">
                            <font>
                               <Font name="Consolas Bold" size="19.0" />
                            </font>
@@ -92,12 +92,12 @@
                               <Font name="Consolas Bold Italic" size="20.0" />
                            </font>
                         </Label>
-                        <TextField id="txtUserName" fx:id="txtUserName" prefHeight="37.0" prefWidth="235.0" promptText="Ingrese su Usuario" style="-fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px; -fx-background-color: transparent;" stylesheets="@../../../../../ProjectHeroes/Heroes/src/controller/css/styles.css" GridPane.columnIndex="1">
+                        <TextField id="txtUserName" fx:id="txtUserName" prefHeight="37.0" prefWidth="235.0" promptText="Ingrese su Usuario" style="-fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px; -fx-background-color: transparent;" stylesheets="@../css/styles.css" GridPane.columnIndex="1">
                            <font>
                               <Font name="Consolas Bold" size="14.0" />
                            </font>
                         </TextField>
-                        <PasswordField id="txtPasswordd" fx:id="txtPasswordd" prefHeight="37.0" prefWidth="235.0" promptText="Ingrese su contraseña" style="-fx-border-color: #FF27F0; -fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../../../../../ProjectHeroes/Heroes/src/controller/css/styles.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                        <PasswordField id="txtPasswordd" fx:id="txtPasswordd" prefHeight="37.0" prefWidth="235.0" promptText="Ingrese su contraseña" style="-fx-border-color: #FF27F0; -fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
                            <font>
                               <Font name="Consolas Bold" size="14.0" />
                            </font>
@@ -110,7 +110,7 @@
                            <children>
                               <HBox alignment="CENTER" prefHeight="49.0" prefWidth="398.0">
                                  <children>
-                                    <Button id="color-style" fx:id="BtnLogin" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ingresoUser" prefHeight="32.0" prefWidth="120.0" style="-fx-background-color: transparent; -fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../../../../../ProjectHeroes/Heroes/src/controller/css/styles.css" text="Login " textFill="#ff27f0">
+                                    <Button id="color-style" fx:id="BtnLogin" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ingresoUser" prefHeight="32.0" prefWidth="120.0" style="-fx-background-color: transparent; -fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" text="Login " textFill="#ff27f0">
                                        <font>
                                           <Font name="Consolas Bold Italic" size="16.0" />
                                        </font>
@@ -135,7 +135,7 @@
                                           </HBox>
                                           <HBox alignment="CENTER" prefHeight="43.0" prefWidth="80.0">
                                              <children>
-                                                <Button id="color-style" fx:id="BtnSignUp" mnemonicParsing="false" onAction="#ingresoSingUp" prefHeight="32.0" prefWidth="78.0" style="-fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../../../../../ProjectHeroes/Herors/src/controller/css/styles.css" text="Únete" textFill="#ff0079">
+                                                <Button id="color-style" fx:id="BtnSignUp" mnemonicParsing="false" onAction="#ingresoSingUp" prefHeight="32.0" prefWidth="78.0" style="-fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" text="Únete" textFill="#ff0079">
                                                    <font>
                                                       <Font name="Consolas Bold Italic" size="16.0" />
                                                    </font>
@@ -161,7 +161,7 @@
                <children>
                   <ImageView fitHeight="200.0" fitWidth="212.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../../ProjectHeroes/Heroes/src/controller/Container/img/Log.png" />
+                        <Image url="@img/Log.png" />
                      </image>
                   </ImageView>
                </children>
