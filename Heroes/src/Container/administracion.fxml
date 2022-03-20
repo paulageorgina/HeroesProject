@@ -6,6 +6,7 @@
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -14,10 +15,8 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<HBox alignment="CENTER" opacity="0.81" prefHeight="535.0" prefWidth="1078.0" 
-style="-fx-background-color: #000;" stylesheets="@../css/styles.css" 
-xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" 
-fx:controller="widgets.HeroesJavaFx">
+<HBox alignment="CENTER" opacity="0.81" prefHeight="535.0" prefWidth="1078.0" style="-fx-background-color: #000;" stylesheets="@../css/styles.css" 
+xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="widgets.HeroesJavaFx">
 
    <VBox prefHeight="200.0" prefWidth="100.0">
       <children>
@@ -39,7 +38,7 @@ fx:controller="widgets.HeroesJavaFx">
                </HBox>
                <HBox alignment="CENTER_RIGHT" prefHeight="150.0" prefWidth="596.0">
                   <children>
-                     <Button id="color-style" fx:id="Btnclosewindowsnow" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#closewindowsnow" prefHeight="37.0" prefWidth="138.0" style="-fx-background-color: transparent;" stylesheets="@../css/styles.css" text="Loguot" textAlignment="CENTER" textFill="#ff27f0">
+                     <Button id="color-style" fx:id="Btnclosewindowsnow" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#closewindowsnowadmin" prefHeight="37.0" prefWidth="138.0" style="-fx-background-color: transparent;" stylesheets="@../css/styles.css" text="Loguot" textAlignment="CENTER" textFill="#ff27f0">
                         <font>
                            <Font name="Consolas Bold" size="20.0" />
                         </font>
@@ -511,9 +510,51 @@ fx:controller="widgets.HeroesJavaFx">
                      </ScrollPane>
                   </content>
                </Tab>
+               <Tab style="-FX-BACKGROUND-COLOR: #FFF; -FX-TEXT-FILL: #FF27F0; -fx-cursor: HAND;" text="UPLOAD">
+                  <content>
+                     <VBox prefHeight="200.0" prefWidth="100.0">
+                        <children>
+                           <HBox alignment="CENTER" prefHeight="413.0" prefWidth="1078.0">
+                              <children>
+                                 <VBox alignment="CENTER" prefHeight="413.0" prefWidth="512.0">
+                                    <children>
+                                       <HBox alignment="CENTER" prefHeight="344.0" prefWidth="390.0">
+                                          <children>
+                                             <ImageView id="color-style" fx:id="Btnimgview" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                          </children>
+                                       </HBox>
+                                    </children>
+                                 </VBox>
+                                 <VBox alignment="CENTER" prefHeight="413.0" prefWidth="418.0">
+                                    <children>
+                                       <HBox alignment="CENTER" prefHeight="308.0" prefWidth="418.0">
+                                          <children>
+                                             <TextArea prefHeight="308.0" prefWidth="369.0" />
+                                          </children>
+                                       </HBox>
+                                    </children>
+                                 </VBox>
+                              </children>
+                           </HBox>
+                           <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                              <children>
+                                 <Button id="color-style" fx:id="BtnUsuario" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="42.0" prefWidth="146.0" style="-fx-cursor: HAND; -fx-background-color: transparent; -fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" text="Guardar " textFill="#ff27f0">
+                                    <font>
+                                       <Font name="Consolas Bold Italic" size="20.0" />
+                                    </font>
+                                    <cursor>
+                                       <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                 </Button>
+                              </children>
+                           </HBox>
+                        </children>
+                     </VBox>
+                  </content>
+               </Tab>
             </tabs>
             <cursor>
-               <Cursor fx:constant="DEFAULT" />
+               <Cursor fx:constant="HAND" />
             </cursor>
          </TabPane>
       </children>

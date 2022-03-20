@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0" prefWidth="649.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="widgetsController.InsertarServicioController">
+
+   <children>
+      <HBox alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="600.0" style="-fx-background-color: #000;">
+          <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="400.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="34.0" prefWidth="220.0">
+                     <children>
+                        <Label prefHeight="18.0" prefWidth="173.0" text="Inicio | Comics" textAlignment="CENTER" textFill="#ff27f0">
+                           <font>
+                              <Font name="Consolas Bold" size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="34.0" prefWidth="328.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="28.0" prefWidth="54.0">
+                     <children>
+                        <Button id="color-style" fx:id="BtnLogin" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#closeWindows11" prefHeight="18.0" prefWidth="16.0" style="-fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" text="X" textFill="#ff27f0">
+                           <font>
+                              <Font name="Consolas Bold" size="19.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <BorderPane prefHeight="388.0" prefWidth="600.0" style="-fx-background-color: #2f2f2f;">
+         <top>
+            <HBox alignment="CENTER" prefHeight="48.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="Iniciar sesión como daministrador o usuario " textFill="#ff27f0">
+                     <font>
+                        <Font name="Consolas Bold Italic" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </top>
+         <center>
+            <VBox prefHeight="177.0" prefWidth="665.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <VBox prefHeight="78.0" prefWidth="172.0">
+                           <children>
+                              <HBox alignment="CENTER" prefHeight="78.0" prefWidth="200.0">
+                                 <children>
+                                    <Button id="color-style" fx:id="Btnadmin" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ingresoadministrador" prefHeight="32.0" prefWidth="154.0" style="-fx-background-color: transparent; -fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" text="Administrador" textFill="#ff27f0">
+                                       <font>
+                                          <Font name="Consolas Bold Italic" size="16.0" />
+                                       </font>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" prefHeight="78.0" prefWidth="155.0">
+                           <children>
+                              <HBox alignment="CENTER" prefHeight="49.0" prefWidth="398.0">
+                                 <children>
+                                    <Button id="color-style" fx:id="BtnAccesUser" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#ingresoUsuario" prefHeight="32.0" prefWidth="120.0" style="-fx-background-color: transparent; -fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" text="Usuario" textFill="#ff27f0">
+                                       <font>
+                                          <Font name="Consolas Bold Italic" size="16.0" />
+                                       </font>
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </center>
+         <bottom>
+            <HBox alignment="CENTER" prefHeight="56.0" prefWidth="598.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="604.0" text="Copyright 2022 por Comic Con. Todos los derechos reservados." textAlignment="CENTER" textFill="#ff27f0">
+                     <font>
+                        <Font name="Consolas Bold Italic" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </bottom>
+      </BorderPane>
+   </children>
+</VBox>

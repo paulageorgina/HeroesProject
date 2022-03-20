@@ -98,6 +98,9 @@ public class InsertarServicioController implements Initializable{
   @FXML
   private Button BtnSignUp;
 
+  @FXML
+  private Button BtnLoginwindows;
+
 
   
 
@@ -107,31 +110,58 @@ public class InsertarServicioController implements Initializable{
       System.exit(0);
   }
 
-  public void ingresoSingUp(){
-      try {
-          FXMLLoader loader = new FXMLLoader(getClass().getResource("../../Container/SingUp.fxml"));
-          Parent root = loader.load();
-          HeroesJavaFx controlador = loader.getController();
+  @FXML
+    public void closewindowsnow() {
 
-          Scene scene = new Scene(root);
-          Stage stage = new Stage();
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("../../Container/admin.fxml"));
+            Parent root = loader.load();
+            InsertarServicioController controlador = loader.getController();
 
-          Image ICON = new Image("https://herosjs.herokuapp.com/herosjs.git/SpuerHeroes.png");
+            Scene scene = new Scene(root);
+            Stage stage = new Stage();
+            Image ICON = new Image("https://herosjs.herokuapp.com/herosjs.git/SpuerHeroes.png");
 
-          stage.getIcons().add(ICON);
-          stage.initStyle(StageStyle.UNDECORATED);
+            stage.getIcons().add(ICON);
+            stage.initStyle(StageStyle.UNDECORATED);
 
-          stage.setScene(scene);
-          stage.show();
-          stage.setOnCloseRequest(e -> controlador.cargarSingUp());
+            stage.setScene(scene);
+            stage.show();
 
-          Stage myStage = (Stage) this.BtnSignUp.getScene().getWindow();
-          myStage.close();
+            Stage myStage = (Stage) this.BtnLoginwindows.getScene().getWindow();
+            myStage.close();
 
-      } catch (IOException ex) {
-          Logger.getLogger(HeroesJavaFx.class.getName()).log(Level.SEVERE, null, ex);
-      }
-  }
+        } catch (IOException ex) {
+            Logger.getLogger(HeroesJavaFx.class.getName()).log(Level.SEVERE, null, ex);
+        }
+
+    }
+
+  public void ingresoSingUp() {
+    try {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../../Container/SingUp.fxml"));
+        Parent root = loader.load();
+        HeroesJavaFx controlador = loader.getController();
+
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+
+        Image ICON = new Image("https://herosjs.herokuapp.com/herosjs.git/SpuerHeroes.png");
+
+        stage.getIcons().add(ICON);
+        stage.initStyle(StageStyle.UNDECORATED);
+
+        stage.setScene(scene);
+        stage.show();
+        stage.setOnCloseRequest(e -> controlador.cargarSingUp());
+
+        Stage myStage = (Stage) this.BtnSignUp.getScene().getWindow();
+        myStage.close();
+
+    } catch (IOException ex) {
+        Logger.getLogger(HeroesJavaFx.class.getName()).log(Level.SEVERE, null, ex);
+    }
+}
 
   public void ingresoUser() {
 

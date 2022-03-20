@@ -16,10 +16,10 @@
 
 ---------------  S U M M A R Y ------------
 
-Command Line: -Djpackage.app-version=17.0.0 --add-opens=javafx.fxml/javafx.fxml=ALL-UNNAMED -Djava.library.path=runtime\bin;runtime\lib -Djpackage.app-path=C:\Users\carde\AppData\Local\SceneBuilder.exe com.oracle.javafx.scenebuilder.app.SceneBuilderApp C:\Users\carde\OneDrive\Documentos\3er semestre\Programacion III\ProjectHeroes\Heroes\src\Container\Usuario.fxml
+Command Line: -Djpackage.app-version=17.0.0 --add-opens=javafx.fxml/javafx.fxml=ALL-UNNAMED -Djava.library.path=runtime\bin;runtime\lib -Djpackage.app-path=C:\Users\ANTHONY\AppData\Local\SceneBuilder\SceneBuilder.exe com.oracle.javafx.scenebuilder.app.SceneBuilderApp C:\Users\ANTHONY\Desktop\Hers\src\controller\Container\Usuario.fxml
 
 Host: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, 8 cores, 15G,  Windows 10 , 64 bit Build 22000 (10.0.22000.434)
-Time: Sun Feb  6 19:16:06 2022 Hora est. Pacï¿½fico, Sudamï¿½rica elapsed time: 1303.080006 seconds (0d 0h 21m 43s)
+Time: Sun Feb  6 19:16:06 2022 Hora est. Pacífico, Sudamérica elapsed time: 1303.080006 seconds (0d 0h 21m 43s)
 
 ---------------  T H R E A D  ---------------
 
@@ -2768,11 +2768,11 @@ Dynamic libraries:
 0x00007ffa3ad90000 - 0x00007ffa3ad9d000 	C:\WINDOWS\SYSTEM32\atlthunk.dll
 
 dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
-symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Users\carde\AppData\Local\SceneBuilder\SceneBuilder;C:\WINDOWS\SYSTEM32;C:\Users\ANTHONY\AppData\Local\SceneBuilder\runtime\bin;C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.22000.1_none_271a8fad6a2d1b1e;C:\Users\ANTHONY\AppData\Local\SceneBuilder\runtime\bin\server;C:\WINDOWS\System32\DriverStore\FileRepository\65_hp_kabylake_hws_iigd_dch.inf_amd64_df915d26191578b0;C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22000.120_none_9d947278b86cc467;C:\Program Files\Common Files\Microsoft Shared\Ink;C:\Program Files\Microsoft OneDrive\22.017.0123.0001;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\mscorlib\26a845b249aefca961715129e3e55539;C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System\effc2b39025f26d0341f563f65c9bfb6;C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System.Drawing\54d500fed19c9e28a1285bf86d3e2e2e;C:\WINDOWS\System32\DriverStore\FileRepository\iastorpinningcomponent.inf_amd64_59691a4ee8d947dd;C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System.Core\584d8c48a4a209c9ebe4257bddf81e67;C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System.Compba577418#\ad8912842ee7f57c891010b19e6ee0d3
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Users\ANTHONY\AppData\Local\SceneBuilder;C:\WINDOWS\SYSTEM32;C:\Users\ANTHONY\AppData\Local\SceneBuilder\runtime\bin;C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.22000.1_none_271a8fad6a2d1b1e;C:\Users\ANTHONY\AppData\Local\SceneBuilder\runtime\bin\server;C:\WINDOWS\System32\DriverStore\FileRepository\65_hp_kabylake_hws_iigd_dch.inf_amd64_df915d26191578b0;C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22000.120_none_9d947278b86cc467;C:\Program Files\Common Files\Microsoft Shared\Ink;C:\Program Files\Microsoft OneDrive\22.017.0123.0001;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\mscorlib\26a845b249aefca961715129e3e55539;C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System\effc2b39025f26d0341f563f65c9bfb6;C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System.Drawing\54d500fed19c9e28a1285bf86d3e2e2e;C:\WINDOWS\System32\DriverStore\FileRepository\iastorpinningcomponent.inf_amd64_59691a4ee8d947dd;C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System.Core\584d8c48a4a209c9ebe4257bddf81e67;C:\WINDOWS\assembly\NativeImages_v4.0.30319_64\System.Compba577418#\ad8912842ee7f57c891010b19e6ee0d3
 
 VM Arguments:
 jvm_args: -Djpackage.app-version=17.0.0 --add-opens=javafx.fxml/javafx.fxml=ALL-UNNAMED -Djava.library.path=runtime\bin;runtime\lib -Djpackage.app-path=C:\Users\ANTHONY\AppData\Local\SceneBuilder\SceneBuilder.exe 
-java_command: com.oracle.javafx.scenebuilder.app.SceneBuilderApp C:\Users\carde\OneDrive\Documentos\3er semestre\Programacion III\ProjectHeroes\Heroes\src\Container\Usuario.fxml
+java_command: com.oracle.javafx.scenebuilder.app.SceneBuilderApp C:\Users\ANTHONY\Desktop\Hers\src\controller\Container\Usuario.fxml
 java_class_path (initial): C:\Users\ANTHONY\AppData\Local\SceneBuilder\app\scenebuilder-17.0.0-all.jar
 Launcher Type: SUN_STANDARD
 
