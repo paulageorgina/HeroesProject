@@ -17,13 +17,21 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="widgetsController.InsertarServicioController">
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="665.0" style="-fx-border-radius: 20px;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="widgetsController.InsertarServicioController">
 
    <children>
-      <HBox alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="600.0" style="-fx-background-color: #000; -fx-border-color: violet;">
+      <HBox alignment="CENTER_RIGHT" prefHeight="53.0" prefWidth="665.0" style="-fx-background-color: #000;">
           <children>
             <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="358.0">
                <children>
+                  <Button id="color-style" fx:id="BtnLoginwindows" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#closewindowsnow" prefHeight="34.0" prefWidth="47.0" style="-fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" text="&lt;-" textFill="#ff27f0">
+                     <font>
+                        <Font name="Consolas Bold" size="19.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
                   <VBox alignment="CENTER" prefHeight="34.0" prefWidth="168.0">
                      <children>
                         <Label prefHeight="18.0" prefWidth="149.0" text="Login | Comics" textAlignment="CENTER" textFill="#ff27f0">
@@ -37,18 +45,7 @@
             </HBox>
             <HBox alignment="CENTER_RIGHT" prefHeight="34.0" prefWidth="328.0">
                <children>
-                  <VBox alignment="CENTER" prefHeight="28.0" prefWidth="54.0">
-                     <children>
-                        <Button id="color-style" fx:id="BtnLogin" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#closeWindows11" prefHeight="18.0" prefWidth="16.0" style="-fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" text="X" textFill="#ff27f0">
-                           <font>
-                              <Font name="Consolas Bold" size="19.0" />
-                           </font>
-                           <cursor>
-                              <Cursor fx:constant="HAND" />
-                           </cursor>
-                        </Button>
-                     </children>
-                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="28.0" prefWidth="54.0" />
                </children>
             </HBox>
          </children>
@@ -56,7 +53,7 @@
             <Insets />
          </opaqueInsets>
       </HBox>
-      <BorderPane prefHeight="388.0" prefWidth="600.0">
+      <BorderPane prefHeight="388.0" prefWidth="600.0" style="-fx-background-color: #2f2f2f;">
          <top>
             <HBox alignment="CENTER" prefHeight="48.0" prefWidth="600.0" BorderPane.alignment="CENTER">
                <children>
@@ -74,8 +71,8 @@
                   <GridPane alignment="CENTER" prefHeight="133.0" prefWidth="398.0">
                      <columnConstraints>
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="165.0" minWidth="10.0" prefWidth="165.0" />
-                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="204.0" minWidth="10.0" prefWidth="199.0" />
-                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="110.0" minWidth="10.0" prefWidth="55.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="205.0" minWidth="10.0" prefWidth="205.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="110.0" minWidth="10.0" prefWidth="36.0" />
                      </columnConstraints>
                      <rowConstraints>
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
@@ -92,12 +89,12 @@
                               <Font name="Consolas Bold Italic" size="20.0" />
                            </font>
                         </Label>
-                        <TextField id="txtUserName" fx:id="txtUserName" prefHeight="37.0" prefWidth="235.0" promptText="Ingrese su Usuario" style="-fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px; -fx-background-color: transparent;" stylesheets="@../css/styles.css" GridPane.columnIndex="1">
+                        <TextField id="txtUserName" prefHeight="37.0" prefWidth="235.0" promptText="Ingrese su Usuario" style="-fx-border-color: #FF27F0; -fx-border-radius: 20px; -fx-border-width: 2px; -fx-background-color: transparent;" stylesheets="@../css/styles.css" GridPane.columnIndex="1">
                            <font>
                               <Font name="Consolas Bold" size="14.0" />
                            </font>
                         </TextField>
-                        <PasswordField id="txtPasswordd" fx:id="txtPasswordd" prefHeight="37.0" prefWidth="235.0" promptText="Ingrese su contraseña" style="-fx-border-color: #FF27F0; -fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                        <PasswordField id="txtPasswordd" fx:id="txtPasswordd_User_Comics" prefHeight="37.0" prefWidth="235.0" promptText="Ingrese su contraseña" style="-fx-border-color: #FF27F0; -fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
                            <font>
                               <Font name="Consolas Bold" size="14.0" />
                            </font>
@@ -157,9 +154,9 @@
             </VBox>
          </center>
          <left>
-            <VBox prefHeight="230.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <VBox alignment="CENTER" prefHeight="261.0" prefWidth="240.0" BorderPane.alignment="CENTER">
                <children>
-                  <ImageView fitHeight="200.0" fitWidth="212.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="266.0" fitWidth="304.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@img/Log.png" />
                      </image>

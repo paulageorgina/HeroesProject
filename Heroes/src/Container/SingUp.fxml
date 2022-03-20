@@ -17,14 +17,22 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="widgets.controller.InsertarServicioController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="widgets.HeroesJavaFx">
 
    <children>
       <HBox alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="600.0" style="-fx-background-color: #000;">
          <children>
-            <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="358.0">
+            <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="273.0">
                <children>
-                  <VBox alignment="CENTER" prefHeight="34.0" prefWidth="168.0">
+                  <Button id="color-style" fx:id="BtnLogin" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#cargarSingUp" prefHeight="34.0" prefWidth="54.0" style="-fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" text="&lt;-" textFill="#ff27f0">
+                     <font>
+                        <Font name="Consolas Bold" size="19.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <VBox alignment="CENTER" prefHeight="34.0" prefWidth="166.0">
                      <children>
                         <Label prefHeight="18.0" prefWidth="149.0" text="SingUp | Comics" textFill="#ff27f0">
                            <font>
@@ -35,28 +43,13 @@
                   </VBox>
                </children>
             </HBox>
-            <HBox alignment="CENTER_RIGHT" prefHeight="34.0" prefWidth="328.0">
-               <children>
-                  <VBox alignment="CENTER" prefHeight="28.0" prefWidth="54.0">
-                     <children>
-                        <Button id="color-style" fx:id="BtnLogin" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="18.0" prefWidth="16.0" style="-fx-background-color: transparent; -fx-border-radius: 20px; -fx-border-width: 2px;" stylesheets="@../css/styles.css" text="X" textFill="#ff27f0">
-                           <font>
-                              <Font name="Consolas Bold" size="19.0" />
-                           </font>
-                           <cursor>
-                              <Cursor fx:constant="HAND" />
-                           </cursor>
-                        </Button>
-                     </children>
-                  </VBox>
-               </children>
-            </HBox>
+            <HBox alignment="CENTER_RIGHT" prefHeight="34.0" prefWidth="328.0" />
          </children>
          <opaqueInsets>
             <Insets />
          </opaqueInsets>
       </HBox>
-      <BorderPane prefHeight="388.0" prefWidth="600.0">
+      <BorderPane prefHeight="388.0" prefWidth="600.0" style="-fx-background-color: #2f2f2f;">
          <top>
             <HBox alignment="CENTER" prefHeight="77.0" prefWidth="630.0" BorderPane.alignment="CENTER">
                <children>
@@ -161,7 +154,7 @@
                <children>
                   <ImageView fitHeight="230.0" fitWidth="287.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../../../Hers/Hers/src/controller/Container/img/Log.png" />
+                        <Image url="@img/Log.png" />
                      </image>
                   </ImageView>
                </children>
