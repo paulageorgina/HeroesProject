@@ -4,7 +4,6 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
- 
 import java.io.IOException;
 
 import javafx.event.ActionEvent;
@@ -14,6 +13,8 @@ import javafx.fxml.Initializable;
 import javafx.stage.StageStyle;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert; 
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
@@ -91,20 +92,23 @@ public class HeroesJavaFx implements Initializable {
     @FXML
     private Button BtnSingUp;
 
- 
-
     // Login
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        
+        // TODO Auto-generated method stub
 
     }
 
     public void getData(ActionEvent actionEvent) {
- 
-        System.out.println(txtUserName.getText()); 
+
+        System.out.println(txtUserName.getText());
         System.out.println(txtPasswordd.getText());
+        Alert alerta = new Alert(AlertType.INFORMATION);
+        alerta.setContentText("Se agrego nuevo usuario a la base de datos");
+        alerta.setHeaderText("Usuario agregado");
+        JavaPostgreSql.LoginUser_ComicsDatabase(txtUserName.getText(), txtPasswordd.getText());
+        alerta.show();
         ClearText();
     }
 
@@ -112,33 +116,64 @@ public class HeroesJavaFx implements Initializable {
         txtPasswordd.setText(" ");
         txtUserName.setText(" ");
     }
-
+ 
     @FXML
     public void closewindowsnow() {
-        try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("../Container/Login.fxml"));
-            Parent root = loader.load();
-            InsertarServicioController controlador = loader.getController();
+     
+            try {
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("../Container/admin.fxml"));
+                Parent root = loader.load();
+                InsertarServicioController controlador = loader.getController();
 
-            Scene scene = new Scene(root);
-            Stage stage = new Stage();
-            Image ICON = new Image("https://herosjs.herokuapp.com/herosjs.git/SpuerHeroes.png");
+                Scene scene = new Scene(root);
+                Stage stage = new Stage();
+                Image ICON = new Image("https://herosjs.herokuapp.com/herosjs.git/SpuerHeroes.png");
 
-            stage.getIcons().add(ICON);
-            stage.initStyle(StageStyle.UNDECORATED);
+                stage.getIcons().add(ICON);
+                stage.initStyle(StageStyle.UNDECORATED);
 
-            stage.setScene(scene);
-            stage.show();
-         
+                stage.setScene(scene);
+                stage.show();
 
-            Stage myStage = (Stage) this.Btnclosewindowsnow.getScene().getWindow();
-            myStage.close();
+                Stage myStage = (Stage) this.Btnclosewindowsnow.getScene().getWindow();
+                myStage.close();
 
-        } catch (IOException ex) {
-            Logger.getLogger(HeroesJavaFx.class.getName()).log(Level.SEVERE, null, ex);
-        }
+            } catch (IOException ex) {
+                Logger.getLogger(HeroesJavaFx.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        
+
+    }
+    
+    @FXML
+    public void closewindowsnowadmin() {
+     
+            try {
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("../Container/admin.fxml"));
+                Parent root = loader.load();
+                InsertarServicioController controlador = loader.getController();
+
+                Scene scene = new Scene(root);
+                Stage stage = new Stage();
+                Image ICON = new Image("https://herosjs.herokuapp.com/herosjs.git/SpuerHeroes.png");
+
+                stage.getIcons().add(ICON);
+                stage.initStyle(StageStyle.UNDECORATED);
+
+                stage.setScene(scene);
+                stage.show();
+
+                Stage myStage = (Stage) this.Btnclosewindowsnow.getScene().getWindow();
+                myStage.close();
+
+            } catch (IOException ex) {
+                Logger.getLogger(HeroesJavaFx.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        
+
     }
 
+ 
     @FXML
     public void cargarSingUp() {
         try {

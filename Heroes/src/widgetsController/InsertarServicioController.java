@@ -15,12 +15,19 @@ import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import widgets.HeroesJavaFx;
 
 public class InsertarServicioController implements Initializable{
 
+    @FXML
+    private Button Btnadmin;
+
+    @FXML
+    private Button BtnAccesUser;
+    
     // DC
     @FXML
     private Button BtnCerrarA;
@@ -91,12 +98,24 @@ public class InsertarServicioController implements Initializable{
   private PasswordField txtPasswordd;
 
   @FXML
+  private ImageView Btnimgview;
+
+  @FXML
   private Button BtnLogin;
 
   @FXML
   private Button BtnSingUp;
   @FXML
   private Button BtnSignUp;
+
+  @FXML
+  private TextField txtUserNameUser_Comics;
+
+  @FXML
+  private Button BtnLoginwindows;
+
+  @FXML
+  private TextField txtPasswordd_User_Comics;
 
 
   
@@ -132,6 +151,56 @@ public class InsertarServicioController implements Initializable{
           Logger.getLogger(HeroesJavaFx.class.getName()).log(Level.SEVERE, null, ex);
       }
   }
+
+  public void ingresoadministrador() {
+    try {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../../Container/administracion.fxml"));
+        Parent root = loader.load();
+        HeroesJavaFx controlador = loader.getController();
+
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+
+        Image ICON = new Image("https://herosjs.herokuapp.com/herosjs.git/SpuerHeroes.png");
+
+        stage.getIcons().add(ICON);
+        stage.initStyle(StageStyle.UNDECORATED);
+
+        stage.setScene(scene);
+        stage.show();
+        stage.setOnCloseRequest(e -> controlador.closewindowsnow());
+
+        Stage myStage = (Stage) this.Btnadmin.getScene().getWindow();
+        myStage.close();
+
+    } catch (IOException ex) {
+        Logger.getLogger(HeroesJavaFx.class.getName()).log(Level.SEVERE, null, ex);
+    }
+}
+
+public void ingresoUsuario() {
+    try {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../../Container/Login.fxml"));
+        Parent root = loader.load();
+
+        Scene scene = new Scene(root);
+        Stage stage = new Stage();
+
+        Image ICON = new Image("https://herosjs.herokuapp.com/herosjs.git/SpuerHeroes.png");
+
+        stage.getIcons().add(ICON);
+        stage.initStyle(StageStyle.UNDECORATED);
+
+        stage.setScene(scene);
+        stage.show();
+
+        Stage myStage = (Stage) this.BtnAccesUser.getScene().getWindow();
+        myStage.close();
+
+    } catch (IOException ex) {
+        Logger.getLogger(HeroesJavaFx.class.getName()).log(Level.SEVERE, null, ex);
+    }
+}
 
   public void ingresoUser() {
 
