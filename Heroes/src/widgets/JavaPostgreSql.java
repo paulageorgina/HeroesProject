@@ -13,7 +13,7 @@ public class JavaPostgreSql {
 
         final String URL = "jdbc:postgresql://localhost:5432/Comics";
         final String USUARIO = "postgres";
-        final String CLAVE = "18102001";
+        final String CLAVE = "123456789";
 
         String name = COMICS_USER_NAME;
         String pass = COMICS_PASSWORD_USER;
