@@ -46,7 +46,7 @@ public class LoginJavaPostgreSql {
 
         final String URL = "jdbc:postgresql://localhost:5432/Comics";
         final String USUARIO = "postgres";
-        final String CLAVE = "18102001";
+        final String CLAVE = "123456789";
         Connection c  = DriverManager.getConnection(URL, USUARIO, CLAVE);
         if (c == null) {
             throw new SQLException("Para recuperar una imagen la coneccion no puede ser nula");

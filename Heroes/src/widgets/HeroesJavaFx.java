@@ -79,7 +79,7 @@ public class HeroesJavaFx implements Initializable {
     @FXML
     private Button Btnclosewindowsnow;
 
-    // SigUp
+    // SingUp
     @FXML
     public TextField txtUserName;
 
